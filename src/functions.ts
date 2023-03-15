@@ -1,16 +1,15 @@
 // Functions
-function calculateTax(income: number) {
-    return 0;
-}
+// function calculateTax(income: number) {
+//     return 0;
+// }
 
 // Function + return no values
-function calculateTTax(income: number): void {
+// function calculateTTax(income: number): void {
 
-}
+// }
 
 // Function + return annotation
 function calculateTTTax(income: number, taxYear:number): number {
-    let x;
     if (taxYear<2022)
         return income * 1.2;
     return income * 1.3; //else   
