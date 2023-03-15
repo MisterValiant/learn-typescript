@@ -9,3 +9,8 @@ console.log(date);
 }};
 
 employee.name = 'Valiant';
+
+// problem with above object:
+// in order to create another employee object, we have to repeat the code (code duplication/repetition)
+
+//use type alias instead
